@@ -14,10 +14,10 @@ export default function Footer() {
     return (
         <footer className="pt-36 text-center">
             <button onClick={lift}>
-                <Lift/>
-                Back to the top
+                <Lift className="w-16 mx-auto"/>
+                <p className="pt-2">Back to the top</p>
             </button>
-            <div className="mt-12 font-mono">
+            <div className="mt-16 font-mono">
                 <p>Built from scratch by Nico Bachner</p>
                 <p>Design by Brittany Chiang</p>
                 <p>
