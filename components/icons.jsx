@@ -111,11 +111,3 @@ export function Lift(props) {
         </SVG>
     );
 }
-
-export function Line(props) {
-    return (
-        <SVG title="Line" viewBox="0 0 10 100" className={props.className}>
-            <line x1="5" y1="0" x2="5" y2="100" stroke="currentColor" />
-        </SVG>
-    );
-}
