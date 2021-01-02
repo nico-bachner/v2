@@ -6,7 +6,7 @@ function NavLink(props) {
     return (
         <li className="font-mono mx-6 inline text-sm">
             <a href={props.href}>
-                <span className="text-green-300">0{props.num}. </span>
+                <span className="text-red-500 dark:text-green-300">0{props.num}. </span>
                 {props.children}
             </a>
         </li>
@@ -15,9 +15,9 @@ function NavLink(props) {
 
 export default function Navbar() {
     return (
-        <nav className="fixed z-50 w-screen bg-blue-200 dark:bg-navy h-18 shadow-xl px-10">
-            <a href="https://nicobachner.com">
-                <Nico className="h-full inline-block py-4 text-blue-100 hover:text-green-300"/>
+        <nav className="fixed z-50 w-screen px-10 bg-blue-200 shadow-lg dark:bg-blue-600 h-18 dark:shadow-xl">
+            <a href="/">
+                <Nico className="h-full inline-block py-4 text-blue-600 dark:text-blue-200 hover:text-red-500 dark:hover:text-green-300"/>
             </a>
             <ol className="float-right my-4">
                 <NavLink href="#about" num="1">About</NavLink>

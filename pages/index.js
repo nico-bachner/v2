@@ -14,7 +14,7 @@ export default function Home() {
                 <title>Nico Bachner</title>
             </Head>
 
-            <main className="min-h-screen py-18">
+            <main className="py-18">
                 <Header/>
                 <About/>
                 <Projects/>

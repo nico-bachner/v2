@@ -4,6 +4,6 @@
 
 @layer base {
     html {
-        @apply bg-gray-200 text-gray-800 dark:bg-navy dark:text-gray-200;
+        @apply bg-blue-200 text-blue-600 dark:bg-blue-600 dark:text-blue-200;
     }
 }
