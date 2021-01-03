@@ -27,7 +27,7 @@ export function ProjectLeft(props) {
                         <GitHub className="inline w-6 mx-2"/>
                     </a>
                     <a
-                        href={props.github}
+                        href={props.website}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
