@@ -3,11 +3,11 @@ import ExtLink from '../ext-link'
 
 export default function Contact() {
     return (
-        <section id="contact" className="pt-56 text-center w-1/2 mx-auto">
+        <section id="contact" className="pt-56 text-center w-3/4 sm:w-2/3 md:w-7/12 lg:w-1/2 mx-auto">
             <p className="font-mono text-red-500 dark:text-green-300">
                 03. What's Next?
             </p>
-            <h2 className="text-5xl mt-6 font-bold text-blue-700 dark:text-blue-100">
+            <h2 className="text-4xl lg:text-5xl mt-6 font-bold text-blue-700 dark:text-blue-100">
                 Get in Touch
             </h2>
             <p className="mt-6 text-lg">

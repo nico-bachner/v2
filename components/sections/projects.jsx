@@ -2,15 +2,15 @@ import { ProjectLeft, ProjectRight } from '../project'
 
 export default function Projects() {
     return (
-        <section id="projects" className="mx-56 pt-36">
-            <h2 className="text-3xl font-bold text-blue-700 dark:text-blue-100">
-                <span className="text-red-500 dark:text-green-300 font-mono text-xl font-normal">02.</span> What I've Built
+        <section id="projects" className="2xl:mx-20 pt-36">
+            <h2 className="text-2xl lg:text-3xl font-bold text-blue-700 dark:text-blue-100">
+                <span className="text-red-500 dark:text-green-300 font-mono text-lg lg:text-xl font-normal">02.</span> What I've Built
             </h2>
             <ProjectRight
                 project="Markdown Paper" 
                 description="Write scientific papers in Markdown and generate a PDF or a TeX file with this command line tool."
                 image="md-paper.png"
-                technologies="Unix Shell (sh, ksh)"
+                technologies="Unix Shell (sh,ksh)"
                 github="https://github.com/nico-bachner/md-paper"
                 website="https://md-paper.now.sh"
             />

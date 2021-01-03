@@ -1,19 +1,20 @@
 export default function About() {
     return (
-        <section id="about" className="mx-72 pt-36">
-            <h2 className="text-3xl font-bold text-blue-700 dark:text-blue-100">
-                <span className="text-red-500 dark:text-green-300 font-mono text-xl font-normal">01.</span> About Me
+        <section id="about" className="pt-36 max-w-max mx-auto">
+            <h2 className="text-2xl lg:text-3xl font-bold text-blue-700 dark:text-blue-100">
+                <span className="text-red-500 dark:text-green-300 font-mono text-lg lg:text-xl font-normal">01.</span> About Me
             </h2>
-            <div className="grid grid-cols-8 gap-8 mt-6">
-                <div className="opacity-70 col-span-5">
+            <div className="mt-6 max-w-max md:mx-auto">
+                <img src="" alt="Profile picture of Nico" className="hidden xl:block w-64 h-72 xl:float-right"/>
+                <div className="opacity-70 xl:pr-80">
                     <p>Hi! I'm Nico, a hobby developer currently living in Luxembourg.</p>
-                    <p className="my-4 text-justify">
+                    <p className="my-4 text-justify max-w-prose">
                         I find making things really fun. 
                         Currently, most of my projects have been web-based, but I want to explore more areas of develepment as well.
                         In the future, I would like to contribute to Open Source even more.
                     </p>
                     <p>Here are a few technologies I've been working with recently:</p>
-                    <ul className="grid grid-cols-2 list-disc list-inside font-mono my-4">
+                    <ul className="grid grid-cols-2 2xl:grid-cols-3 gap-x-4 list-disc list-inside font-mono my-4">
                         <li>JavaScript</li>
                         <li>CSS</li>
                         <li>HTML</li>
@@ -24,7 +25,6 @@ export default function About() {
                     </ul>
                     <p>I'm currently also learning <span className="font-mono">Rust</span> and systems-level programming.</p>
                 </div>
-                <img src="" alt="" className="w-full h-80 col-span-3"/>
             </div>
         </section>
     )

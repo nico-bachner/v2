@@ -14,7 +14,7 @@ export default function Home() {
                 <title>Nico Bachner</title>
             </Head>
 
-            <main className="py-18">
+            <main className="py-18 mx-6 sm:mx-10 md:mx-16 lg:mx-28 xl:mx-36">
                 <Header/>
                 <About/>
                 <Projects/>
