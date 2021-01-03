@@ -3,7 +3,7 @@ import ExtLink from '../ext-link'
 
 export default function Header() {
     return (
-        <header className="xl:w-max xl:pr-32 py-32 xl:mx-auto">
+        <header className="xl:w-max xl:pr-32 py-20 sm:py-24 md:py-32 xl:mx-auto">
             <p className="font-mono text-red-500 dark:text-green-300">
                 Hi, my name is
             </p>
