@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section id="about" className="pt-36 max-w-max mx-auto">
+        <section id="about" className="py-28 max-w-max mx-auto">
             <h2 className="text-2xl lg:text-3xl font-bold text-blue-700 dark:text-blue-100">
                 <span className="text-red-500 dark:text-green-300 font-mono text-lg lg:text-xl font-normal">01.</span> About Me
             </h2>
@@ -8,7 +8,7 @@ export default function About() {
                 <img src="" alt="Profile picture of Nico" className="hidden xl:block w-64 h-72 xl:float-right"/>
                 <div className="opacity-70 xl:pr-80">
                     <p>Hi! I'm Nico, a hobby developer currently living in Luxembourg.</p>
-                    <p className="my-4 text-justify max-w-prose">
+                    <p className="my-4 sm:text-justify max-w-prose">
                         I find making things really fun. 
                         Currently, most of my projects have been web-based, but I want to explore more areas of develepment as well.
                         In the future, I would like to contribute to Open Source even more.
