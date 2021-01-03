@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from '../components/navbar'
 import Footer from '../components/sections/footer'
 import Email from '../components/email'
 import Header from '../components/sections/header'
@@ -12,7 +13,14 @@ export default function Home() {
         <>
             <Head>
                 <title>Nico Bachner</title>
+                <link rel="icon" href="images/icon/logo.svg"/>
+                <meta name="color-scheme" content="dark light"/>
+                <meta name="description" content="Aspiring Open Sourcerer"/>
+                <meta name="keywords" content="student, developer, open source"/>
+                <meta name="author" content="Nico Bachner"/>
             </Head>
+
+            <Navbar/>
 
             <main className="py-18 mx-6 sm:mx-10 md:mx-16 lg:mx-28 xl:mx-36">
                 <Header/>
