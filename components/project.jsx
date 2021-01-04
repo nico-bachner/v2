@@ -1,5 +1,4 @@
 import { GitHub, Website } from "./icons";
-import Image from 'next/image'
 
 function Project(props) {
     return (
@@ -10,31 +9,24 @@ function Project(props) {
 }
 
 function ProjectImage(props) {
-    const image_origin = () => {
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            console.log(props.imageDark);
-            return props.imageDark;
-        } else {
-            console.log(props.imageLight);
-            return props.imageLight;
-        }
-    }
     return (
         <div className={"col-span-7 row-span-1 row-start-1 " + props.className}>
-            <Image 
-                src={image_origin}
-                alt={"Image of " + props.project}
-                width={2800}
-                height={1550}
-                className="w-full border border-indigo dark:border-cyan rounded"
-            />
+            <div className="w-full h-full border border-indigo dark:border-cyan">
+                <iframe 
+                    className="transform origin-top-left scale-50 w-2/1 h-2/1"
+                    title={"Image of " + props.project}
+                    loading="lazy"
+                    scrolling="no"
+                    src={props.src}
+                />
+            </div>
         </div>
     )
 }
 
 function ProjectDescription(props) {
     return (
-        <div className={"z-20 col-span-6 row-span-1 row-start-1 " + props.className}>
+        <div className={"z-20 col-span-6 row-span-1 row-start-1 lg:pb-20 xl:pb-32 " + props.className}>
             <p className="text-sm text-red dark:text-green font-mono">Featured Project</p>
             <h3 className="text-2xl font-semibold text-indigo-dark dark:text-cyan-light">{props.project}</h3>
             <p className="py-4 px-5 my-4 bg-cyan-light dark:bg-indigo-light">{props.description}</p>
@@ -64,7 +56,7 @@ export function ProjectLeft(props) {
         <Project>
             <ProjectImage 
                 project={props.project}
-                image={props.image}
+                src={props.website}
                 className="col-start-6"
             />
             <ProjectDescription 
@@ -80,7 +72,11 @@ export function ProjectLeft(props) {
 export function ProjectRight(props) {
     return (
         <Project>
-            <ProjectImage project={props.project} image={props.image} className="col-start-1"/>
+            <ProjectImage 
+                project={props.project} 
+                src={props.website} 
+                className="col-start-1"
+            />
             <ProjectDescription 
                 project={props.project}
                 description={props.description}

@@ -30,7 +30,7 @@ export default function Projects() {
                 description="Write scientific papers in Markdown and generate a PDF or a TeX file with this command line tool."
                 imageLight="/images/projects/md-paper.png"
                 imageDark="/images/projects/md-paper.png"
-                technologies="Unix Shell (sh/ksh)"
+                technologies="Unix Shell (sh & ksh)"
                 github="https://github.com/nico-bachner/md-paper"
                 website="https://md-paper.now.sh"
             />
