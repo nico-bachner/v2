@@ -10,11 +10,20 @@ function Project(props) {
 }
 
 function ProjectImage(props) {
+    const image_origin = () => {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            console.log(props.imageDark);
+            return props.imageDark;
+        } else {
+            console.log(props.imageLight);
+            return props.imageLight;
+        }
+    }
     return (
         <div className={"col-span-7 row-span-1 row-start-1 " + props.className}>
             <Image 
-                src={"/images/projects/" + props.image}
-                alt={"Image of" + " " + props.project}
+                src={image_origin}
+                alt={"Image of " + props.project}
                 width={2800}
                 height={1550}
                 className="w-full border border-indigo dark:border-cyan rounded"

@@ -10,7 +10,7 @@ export default function About() {
                     <p>Hi! I'm Nico, a hobby developer currently living in Luxembourg.</p>
                     <p className="my-4 sm:text-justify max-w-prose">
                         I find making things really fun. 
-                        Currently, most of my projects have been web-based, but I want to explore more areas of develepment as well.
+                        Currently, most of my projects have been web-based, but I want to explore more areas of development as well.
                         In the future, I would like to contribute to Open Source even more.
                     </p>
                     <p>Here are a few technologies I've been working with recently:</p>
