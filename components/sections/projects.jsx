@@ -10,7 +10,8 @@ export default function Projects() {
             <ProjectRight
                 project="CareerGuru" 
                 description="Product of a hackathon. Designed to be a web app that helps students choose their professional orientation by providing a platform for professionals and students to come together."
-                image="career-guru.png"
+                imageLight="/images/projects/career-guru.png"
+                imageDark="/images/projects/career-guru.png"
                 technologies="Sapper / Svelte / JavaScript / CSS / HTML"
                 github="https://github.com/nico-bachner/CareerGuru"
                 website="https://career-guru.now.sh"
@@ -18,7 +19,8 @@ export default function Projects() {
             <ProjectLeft
                 project="My Personal Website" 
                 description="The website you are currently on. This is the second iteration of my personal website."
-                image="personal-website.png"
+                imageLight="/images/projects/personal-website.png"
+                imageDark="/images/projects/personal-website.png"
                 technologies="Next.js / React / TailwindCSS"
                 github="https://github.com/nico-bachner/website"
                 website="https://nicobachner.com"
@@ -26,8 +28,9 @@ export default function Projects() {
             <ProjectRight
                 project="Markdown Paper" 
                 description="Write scientific papers in Markdown and generate a PDF or a TeX file with this command line tool."
-                image="md-paper.png"
-                technologies="Unix Shell (sh,ksh)"
+                imageLight="/images/projects/md-paper.png"
+                imageDark="/images/projects/md-paper.png"
+                technologies="Unix Shell (sh & ksh)"
                 github="https://github.com/nico-bachner/md-paper"
                 website="https://md-paper.now.sh"
             />
