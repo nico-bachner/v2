@@ -5,10 +5,10 @@
 @layer base {
     html {
         @apply
-            bg-blue-200
-            text-blue-600
-            dark:bg-blue-600
-            dark:text-blue-200
+            bg-cyan
+            text-indigo
+            dark:bg-indigo
+            dark:text-cyan
         ;
     }
 }

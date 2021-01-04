@@ -1,0 +1,24 @@
+{
+    "name": "Nico Bachner",
+    "short_name": "Nico",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#C7E3FF",
+    "description": "Aspiring Open Sourcerer",
+    "icons": [
+        {
+            "src": "images/icon/icon.svg",
+            "type": "image/svg"
+        },
+        {
+            "src": "images/icon/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ]
+}

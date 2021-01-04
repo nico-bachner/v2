@@ -4,9 +4,9 @@ import { Nico } from './icons'
 
 function NavLink(props) {
     return (
-        <li className="hidden md:inline font-mono mx-6 text-sm">
+        <li className="hidden md:inline font-mono mx-6 text-sm hover:text-red dark:hover:text-green">
             <a href={props.href}>
-                <span className="text-red-500 dark:text-green-300">0{props.num}. </span>
+                <span className="text-red dark:text-green">0{props.num}. </span>
                 {props.children}
             </a>
         </li>
@@ -15,9 +15,9 @@ function NavLink(props) {
 
 export default function Navbar() {
     return (
-        <nav className="fixed z-50 w-screen px-4 lg:px-8 xl:px-12 bg-blue-200 shadow-lg dark:bg-blue-600 h-18 dark:shadow-xl">
+        <nav className="fixed z-50 w-screen px-4 lg:px-8 xl:px-12 bg-cyan dark:bg-indigo h-18 shadow-lg dark:shadow-xl">
             <a href="/">
-                <Nico className="h-full inline-block py-4 text-blue-600 dark:text-blue-200 hover:text-red-500 dark:hover:text-green-300"/>
+                <Nico className="h-full inline-block py-4 hover:text-red dark:hover:text-green"/>
             </a>
             <ol className="float-right my-4">
                 <NavLink href="#about" num="1">About</NavLink>

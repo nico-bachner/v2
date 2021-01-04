@@ -14,9 +14,9 @@ export function ProjectLeft(props) {
                 />
             </div>
             <div className="z-20 col-start-1 col-span-6 row-span-1 row-start-1">
-                <p className="text-sm text-red-500 dark:text-green-300 font-mono">Featured Project</p>
-                <h3 className="text-2xl font-semibold text-blue-700 dark:text-blue-100">{props.project}</h3>
-                <p className="py-4 px-5 my-4 bg-blue-100 dark:bg-blue-500 bg-opacity-70">{props.description}</p>
+                <p className="text-sm text-red dark:text-green font-mono">Featured Project</p>
+                <h3 className="text-2xl font-semibold text-indigo-dark dark:text-cyan-light">{props.project}</h3>
+                <p className="py-4 px-5 my-4 bg-cyan-light dark:bg-indigo-light">{props.description}</p>
                 <p className="font-mono text-sm opacity-70">{props.technologies}</p>
                 <div className="mt-6">
                     <a
@@ -52,9 +52,9 @@ export function ProjectRight(props) {
                 />
             </div>
             <div className="z-20 text-right col-start-7 col-span-6 row-span-1 row-start-1">
-                <p className="text-sm text-red-500 dark:text-green-300 font-mono">Featured Project</p>
-                <h3 className="text-2xl font-semibold text-blue-700 dark:text-blue-100">{props.project}</h3>
-                <p className="py-4 px-5 my-4 bg-blue-100 dark:bg-blue-500 bg-opacity-70">{props.description}</p>
+                <p className="text-sm text-red dark:text-green font-mono">Featured Project</p>
+                <h3 className="text-2xl font-semibold text-indigo-dark dark:text-cyan-light">{props.project}</h3>
+                <p className="py-4 px-5 my-4 bg-cyan-light dark:bg-indigo-light">{props.description}</p>
                 <p className="font-mono text-sm opacity-70">{props.technologies}</p>
                 <div className="mt-6">
                     <a

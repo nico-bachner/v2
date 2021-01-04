@@ -3,8 +3,8 @@ import { ProjectLeft, ProjectRight } from '../project'
 export default function Projects() {
     return (
         <section id="projects" className="2xl:mx-20 pt-28">
-            <h2 className="text-2xl lg:text-3xl font-bold text-blue-700 dark:text-blue-100">
-                <span className="text-red-500 dark:text-green-300 font-mono text-lg lg:text-xl font-normal">02.</span> What I've Built
+            <h2 className="text-2xl lg:text-3xl font-bold">
+                <span className="text-red dark:text-green font-mono text-lg lg:text-xl font-normal">02.</span> What I've Built
             </h2>
             
             <ProjectRight
