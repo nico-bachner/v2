@@ -10,7 +10,7 @@ export default function Header() {
             <h1 className="text-4xl sm:text-6xl md:text-7xl mt-6 font-bold text-indigo-dark dark:text-cyan-light">
                 Nico Bachner.
             </h1>
-            <p className="mt-4 text-3xl sm:text-5xl md:text-6xl font-bold opacity-70">
+            <p className="mt-4 text-3xl sm:text-5xl md:text-6xl font-bold text-indigo-light dark:text-cyan-dark opacity-60">
                 I'm an Aspiring Open Sourcerer.
             </p>
             <p className="max-w-prose mt-10 text-lg">

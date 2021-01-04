@@ -17,7 +17,7 @@ export default function Projects() {
             />
             <ProjectLeft
                 project="My Personal Website" 
-                description="The website you are currently on."
+                description="The website you are currently on. This is the second iteration of my personal website."
                 image="personal-website.png"
                 technologies="Next.js / React / TailwindCSS"
                 github="https://github.com/nico-bachner/website"

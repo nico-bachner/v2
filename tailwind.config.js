@@ -17,8 +17,8 @@ module.exports = {
                 dark: '#CCE5FF',
             },
             indigo: {
-                light: '#1C0070',
-                DEFAULT: '#0E0038',
+                light: '#0D0033',
+                DEFAULT: '#08001F',
                 dark: '#03000A',
             },
         },
