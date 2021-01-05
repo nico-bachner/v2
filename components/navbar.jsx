@@ -1,5 +1,4 @@
 import Button from './button';
-import Link from 'next/link'
 import { Nico } from './icons'
 
 function NavLink(props) {
@@ -23,9 +22,7 @@ export default function Navbar() {
                 <NavLink href="#about" num="1">About</NavLink>
                 <NavLink href="#projects" num="2">Projects</NavLink>
                 <NavLink href="#contact" num="3">Contact</NavLink>
-                <Link href="resume.pdf">
-                    <Button className="px-4 py-2 ml-8">Resume</Button>
-                </Link>
+                <Button className="px-4 py-2 ml-8">Resume</Button>
             </ol>
         </nav>
     );
