@@ -7,13 +7,13 @@ export default function Header(props) {
             <p className="font-mono text-red dark:text-green">
                 Hi, my name is
             </p>
-            <h1 className="text-4xl sm:text-6xl md:text-7xl mt-6 font-bold text-indigo-dark dark:text-cyan-light">
+            <h1 className="text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl mt-6 font-bold text-indigo-dark dark:text-cyan-light">
                 Nico Bachner.
             </h1>
-            <p className="mt-4 text-3xl sm:text-5xl md:text-6xl font-bold text-indigo-light dark:text-cyan-dark opacity-60">
+            <p className="mt-4 text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-indigo-light dark:text-cyan-dark opacity-60">
                 I'm an Aspiring Open Sourcerer.
             </p>
-            <p className="max-w-prose mt-10 text-lg">
+            <p className="max-w-prose mt-10 lg:text-lg">
                 I'm a High School Student and hobby developer currently living in Luxembourg. I plan to graduate in May 2021.
             </p>
             <ExtLink href="mailto:yo@nicob.dev">

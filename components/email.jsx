@@ -4,7 +4,7 @@ export default function Email() {
     return (
         <nav 
             className="hidden lg:block fixed 
-                z-10 right-8 xl:right-12 bottom-0 w-6
+                z-10 right-8 xl:right-12 2xl:right-16 bottom-0 w-6
                 text-indigo-light dark:text-cyan-dark
             "
         >

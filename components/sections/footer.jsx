@@ -1,5 +1,5 @@
 import ExtLink from '../ext-link'
-import { GitHub, NextJS, Tailwind, Vercel, Lift } from '../icons'
+import { Lift } from '../icons'
 import * as Elevator from "elevator.js";
 
 export default function Footer(props) {
@@ -21,7 +21,7 @@ export default function Footer(props) {
                 <p>Built from scratch by Nico Bachner</p>
                 <p>Design by Brittany Chiang</p>
                 <p>
-                    <ExtLink href="https://github.com/nico-bachner/website" className="text-red-500 dark:text-green-300">
+                    <ExtLink href="https://github.com/nico-bachner/website" className="text-red dark:text-green">
                         View Source Code
                     </ExtLink>
                 </p>

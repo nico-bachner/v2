@@ -3,7 +3,7 @@ import { CodeGolf, DEV, GitHub, StackOverflow } from "./icons";
 
 export default function Social() {
     return (
-        <nav className="hidden lg:block fixed z-10 left-8 xl:left-12 bottom-0 w-6 text-indigo-light dark:text-cyan-dark">
+        <nav className="hidden lg:block fixed z-10 left-8 xl:left-12 2xl:left-16 bottom-0 w-6 text-indigo-light dark:text-cyan-dark">
             <ExtLink href="https://github.com/nico-bachner" className="w-full">
                 <GitHub className="w-full my-6 hover:text-red dark:hover:text-green"/>
             </ExtLink>

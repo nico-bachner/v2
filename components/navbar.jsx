@@ -14,7 +14,7 @@ function NavLink(props) {
 
 export default function Navbar() {
     return (
-        <nav className="fixed z-50 w-screen px-4 lg:px-8 xl:px-12 bg-cyan dark:bg-indigo h-18 shadow-lg dark:shadow-xl">
+        <nav className="fixed z-50 w-screen px-4 lg:px-8 xl:px-12 2xl:px-16 bg-cyan dark:bg-indigo h-18 shadow-md dark:shadow-xl">
             <a href="/">
                 <Nico className="h-full inline-block py-4 hover:text-red dark:hover:text-green"/>
             </a>
