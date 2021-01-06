@@ -1,4 +1,4 @@
-import Button from './button';
+import Button from './button'
 import { Nico } from './icons'
 
 function NavLink(props) {
