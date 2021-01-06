@@ -1,13 +1,14 @@
-import ExtLink from "../ext-link"
+import ExtLink from '../ext-link'
 import Image from 'next/image'
+import Section from '../section'
 
 export default function About(props) {
     return (
-        <section id="about" className={"max-w-max mx-auto " + props.className}>
+        <Section id="about" className={"max-w-max mx-auto " + props.className}>
             <h2 className="text-2xl lg:text-3xl font-bold text-indigo dark:text-cyan">
                 <span className="text-red dark:text-green font-mono text-lg lg:text-xl font-normal">01.</span> About Me
             </h2>
-            <div className="mt-6 mx-auto lg:grid lg:grid-cols-3 lg:gap-6 max-w-4xl">
+            <div className="mt-6 lg:grid grid-cols-3 gap-6 max-w-4xl">
                 <div className="col-span-2">
                     <p>Hi! I'm Nico, a hobby developer currently living in Luxembourg.</p>
                     <p className="my-4 max-w-prose">
@@ -30,9 +31,9 @@ export default function About(props) {
                 <img
                     src="/images/nico.png" 
                     alt="Picture of Nico"
-                    className="hidden lg:block w-full border rounded"
+                    className="hidden lg:block w-full border"
                 />
             </div>
-        </section>
+        </Section>
     )
 }

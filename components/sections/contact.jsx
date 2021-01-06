@@ -1,9 +1,10 @@
 import Button from '../button'
 import ExtLink from '../ext-link'
+import Section from '../section'
 
 export default function Contact(props) {
     return (
-        <section id="contact" className={"text-center max-w-max mx-auto " + props.className}>
+        <Section id="contact" className={"text-center max-w-max mx-auto " + props.className}>
             <p className="font-mono text-red dark:text-green">
                 03. What's Next?
             </p>
@@ -19,6 +20,6 @@ export default function Contact(props) {
                     Say Hello
                 </Button>
             </ExtLink>
-        </section>
+        </Section>
     )
 }

@@ -1,15 +1,16 @@
 import { ProjectLeft, ProjectRight } from '../project'
+import Section from '../section'
 
 export default function Projects(props) {
     return (
-        <section id="projects" className={"2xl:mx-20 " + props.className}>
+        <Section id="projects" className={"max-w-7xl mx-auto " + props.className}>
             <h2 className="text-2xl lg:text-3xl font-bold pb-12">
                 <span className="text-red dark:text-green font-mono text-lg lg:text-xl font-normal">02.</span> What I've Built
             </h2>
             <div className="w-full grid grid-cols-12 sm:grid-rows-3 gap-4 sm:gap-y-20">
                 <ProjectRight
                     project="CareerGuru" 
-                    description="Product of a hackathon. Designed to be a web app that helps students choose their professional orientation by providing a platform for professionals and students to come together."
+                    description="Collaborative product of a hackathon. It is a platform encouraging students and professionals to interact, aiding students in discovering their professional orientation."
                     technologies="Sapper / Svelte / JavaScript / CSS / HTML"
                     github="https://github.com/nico-bachner/CareerGuru"
                     website="https://career-guru.now.sh"
@@ -17,7 +18,7 @@ export default function Projects(props) {
                 />
                 <ProjectLeft
                     project="My Personal Website" 
-                    description="The website you are currently on. This is the second iteration of my personal website."
+                    description="The website you are currently on. This is version 2 of my personal website."
                     technologies="Next.js / React / TailwindCSS"
                     github="https://github.com/nico-bachner/website"
                     website="https://nicobachner.com"
@@ -25,13 +26,13 @@ export default function Projects(props) {
                 />
                 <ProjectRight
                     project="Markdown Paper" 
-                    description="Write scientific papers in Markdown and generate a PDF or a TeX file with this command line tool."
-                    technologies="Unix Shell (sh & ksh)"
+                    description="Write scientific papers in Markdown and generate a PDF or TeX file from your paper. (command line tool)"
+                    technologies="Unix Shell (sh & ksh) / Homebrew"
                     github="https://github.com/nico-bachner/md-paper"
                     website="https://md-paper.now.sh"
                     className="row-start-3"
                 />
             </div>
-        </section>
+        </Section>
     )
 }
