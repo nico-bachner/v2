@@ -1,6 +1,6 @@
-export default function About() {
+export default function About(props) {
     return (
-        <section id="about" className="py-28 max-w-max mx-auto">
+        <section id="about" className={"max-w-max mx-auto " + props.className}>
             <h2 className="text-2xl lg:text-3xl font-bold text-indigo dark:text-cyan">
                 <span className="text-red dark:text-green font-mono text-lg lg:text-xl font-normal">01.</span> About Me
             </h2>

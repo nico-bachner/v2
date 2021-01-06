@@ -25,11 +25,11 @@ export default function Home() {
             <Navbar/>
 
             <main className="py-18 mx-6 sm:mx-10 md:mx-16 lg:mx-28 xl:mx-36">
-                <Header/>
-                <About/>
-                <Projects/>
-                <Contact/>
-                <Footer/>
+                <Header className="py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 2xl:py-36"/>
+                <About className="pt-28"/>
+                <Projects className="pt-28"/>
+                <Contact className="pt-56"/>
+                <Footer className="pt-32"/>
             </main>
 
             <Social/>

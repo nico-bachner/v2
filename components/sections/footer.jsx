@@ -2,7 +2,7 @@ import ExtLink from '../ext-link'
 import { GitHub, NextJS, Tailwind, Vercel, Lift } from '../icons'
 import * as Elevator from "elevator.js";
 
-export default function Footer() {
+export default function Footer(props) {
     function lift() {
         var elevator = new Elevator({
             element: document.querySelector('.elevator-button'),
@@ -12,7 +12,7 @@ export default function Footer() {
         elevator.elevate();
     }
     return (
-        <footer className="pt-36 text-center">
+        <footer className={"text-center " + props.className}>
             <button onClick={lift}>
                 <Lift className="w-16 mx-auto"/>
                 <p className="pt-2 italic">Back to the top</p>

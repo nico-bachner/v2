@@ -1,9 +1,9 @@
 import Button from '../button'
 import ExtLink from '../ext-link'
 
-export default function Contact() {
+export default function Contact(props) {
     return (
-        <section id="contact" className="pt-56 text-center w-3/4 sm:w-2/3 md:w-7/12 lg:w-1/2 mx-auto">
+        <section id="contact" className={"text-center w-3/4 sm:w-2/3 md:w-7/12 lg:w-1/2 mx-auto " + props.className}>
             <p className="font-mono text-red dark:text-green">
                 03. What's Next?
             </p>

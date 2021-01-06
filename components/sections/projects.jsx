@@ -1,12 +1,12 @@
 import { ProjectLeft, ProjectRight } from '../project'
 
-export default function Projects() {
+export default function Projects(props) {
     return (
-        <section id="projects" className="2xl:mx-20 pt-28">
+        <section id="projects" className={"2xl:mx-20 " + props.className}>
             <h2 className="text-2xl lg:text-3xl font-bold pb-12">
                 <span className="text-red dark:text-green font-mono text-lg lg:text-xl font-normal">02.</span> What I've Built
             </h2>
-            <div className="w-full grid grid-cols-12 grid-rows-3 sm:gap-y-20 gap-x-6">
+            <div className="w-full grid grid-cols-12 sm:grid-rows-3 sm:gap-y-20 gap-x-6">
                 <ProjectRight
                     project="CareerGuru" 
                     description="Product of a hackathon. Designed to be a web app that helps students choose their professional orientation by providing a platform for professionals and students to come together."

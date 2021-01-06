@@ -1,9 +1,9 @@
 import Button from '../button'
 import ExtLink from '../ext-link'
 
-export default function Header() {
+export default function Header(props) {
     return (
-        <header className="xl:w-max xl:pr-32 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 2xl:py-36 xl:mx-auto">
+        <header className={"xl:w-max xl:pr-32 xl:mx-auto " + props.className}>
             <p className="font-mono text-red dark:text-green">
                 Hi, my name is
             </p>
