@@ -1,4 +1,5 @@
 import { GitHub, Website } from "./icons";
+import ExtLink from './ext-link'
 
 function ProjectImage(props) {
     return (
@@ -24,20 +25,12 @@ function ProjectDescription(props) {
             <p className="py-4 px-5 my-4 bg-cyan-light dark:bg-indigo-light">{props.description}</p>
             <p className="font-mono text-sm opacity-70">{props.technologies}</p>
             <div className="mt-6">
-                <a
-                    href={props.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
+                <ExtLink href={props.github}>
                     <GitHub className="inline w-6 mx-2"/>
-                </a>
-                <a
-                    href={props.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
+                </ExtLink>
+                <ExtLink href={props.website}>
                     <Website className="inline w-6 mx-2"/>
-                </a>
+                </ExtLink>
             </div>
         </div>
     )
@@ -55,6 +48,8 @@ export function ProjectLeft(props) {
                 project={props.project}
                 description={props.description}
                 technologies={props.technologies}
+                github={props.github}
+                website={props.website}
                 className={"col-start-1 " + props.className}
             />
         </>
@@ -73,6 +68,8 @@ export function ProjectRight(props) {
                 project={props.project}
                 description={props.description}
                 technologies={props.technologies}
+                github={props.github}
+                website={props.website}
                 className={"col-start-4 sm:col-start-8 text-right " + props.className}
             />
         </>
