@@ -12,14 +12,14 @@ module.exports = {
                 DEFAULT: '#82FA58',
             },
             cyan: {
-                light: '#F5FAFF',
-                DEFAULT: '#E0F0FF',
-                dark: '#CCE5FF',
+                light: '#EEF7FF',
+                DEFAULT: '#DDEEFF',
+                dark: '#CCE7FF',
             },
             indigo: {
-                light: '#0D0033',
-                DEFAULT: '#08001F',
-                dark: '#03000A',
+                light: '#003366',
+                DEFAULT: '#002244',
+                dark: '#001122',
             },
         },
         extend: {
@@ -31,13 +31,16 @@ module.exports = {
             },
             height: {
                 '2/1': '200%',
-            }
+            },
+            boxShadow: {
+                '3xl': '0 0 10px rgba(0,0,0,1)',
+            },
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            boxShadow: ['dark'],
+        },
     },
-    plugins: [
-        
-    ],
+    plugins: [],
 }

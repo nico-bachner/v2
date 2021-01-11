@@ -4,10 +4,10 @@ export default function Button(props) {
             className={
                 props.className +
                 " text-red dark:text-green " +
-                "hover:bg-red dark:hover:bg-green " +
-                "border rounded " +
-                "hover:bg-opacity-20 transition duration-200 ease-in-out" +
-                "font-mono"
+                " hover:bg-red dark:hover:bg-green " +
+                " border border-red dark:border-green rounded " +
+                " hover:bg-opacity-20 transition duration-200 ease-in-out " +
+                " font-mono "
             }
         >
             {props.children}
