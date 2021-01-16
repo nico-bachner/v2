@@ -18,8 +18,8 @@ export default function Footer(props) {
                 <p className="pt-2 italic">Back to the top</p>
             </button>
             <div className="mt-16 font-mono">
-                <p>Built from scratch by Nico Bachner</p>
-                <p>Design by Brittany Chiang</p>
+                <p>Design inspired by <wbr/> Brittany Chiang</p>
+                <p>Built by Nico Bachner</p>
                 <p>
                     <ExtLink href="https://github.com/nico-bachner/website" className="text-red dark:text-green">
                         View Source Code

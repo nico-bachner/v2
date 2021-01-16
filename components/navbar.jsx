@@ -1,4 +1,5 @@
 import Button from './button'
+import ExtLink from './ext-link'
 import { Nico } from './icons'
 
 function NavLink(props) {
@@ -22,9 +23,11 @@ export default function Navbar() {
                 <NavLink href="#about" num="1">About</NavLink>
                 <NavLink href="#projects" num="2">Projects</NavLink>
                 <NavLink href="#contact" num="3">Contact</NavLink>
-                <a href="https://read.cv/nicob">
-                    <Button className="px-4 py-2 ml-8">Resume</Button>
-                </a>
+                <li className="inline">
+                    <ExtLink href="https://read.cv/nicob">
+                        <Button className="px-4 py-2 ml-8">Resume</Button>
+                    </ExtLink>
+                </li>
             </ol>
         </nav>
     );
