@@ -19,7 +19,7 @@ function ProjectImage(props) {
 
 function ProjectDescription(props) {
     return (
-        <div className={"z-20 col-span-9 sm:col-span-5 row-span-1 lg:pb-16 xl:pb-24 2xl:pb-32 " + props.className}>
+        <div className={"z-20 col-span-9 sm:col-span-5 row-span-1 md:py-4 lg:py-10 xl:py-16 2xl:py-20 " + props.className}>
             <p className="text-sm text-red dark:text-green font-mono">Featured Project</p>
             <h3 className="text-2xl font-semibold text-indigo-dark dark:text-cyan-light">{props.project}</h3>
             <p className="py-4 px-5 my-4 bg-cyan-light dark:bg-indigo-light">{props.description}</p>
