@@ -1,8 +1,5 @@
 import '../styles/globals.css'
 import Head from 'next/head'
-import Navbar from '../components/navbar'
-import Email from '../components/email'
-import Social from '../components/social'
 
 function App({ Component, pageProps }) {
     return (
@@ -17,10 +14,7 @@ function App({ Component, pageProps }) {
                 <meta name="keywords" content="student, developer, open source"/>
                 <meta name="author" content="Nico Bachner"/>
             </Head>
-            <Navbar/>
             <Component {...pageProps}/>
-            <Social/>
-            <Email/>
         </>
     )
 }

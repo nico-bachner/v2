@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Button from '../button'
 import Section from '../section'
 
-export default function Projects(props) {
+export default function ProjectsPreview(props) {
     return (
         <Section id="projects" className={"max-w-7xl mx-auto " + props.className}>
             <h2 className="text-2xl lg:text-3xl font-bold pb-12">
@@ -18,7 +18,6 @@ export default function Projects(props) {
                     </a>
                 </Link>
             </div>
-            
         </Section>
     )
 }
