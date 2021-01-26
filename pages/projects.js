@@ -1,20 +1,22 @@
-import { ProjectLeft, ProjectRight } from '../components/project'
+import { ProjectLeft, ProjectRight, ProjectImageLeft, ProjectImageRight } from '../components/project'
 
 export default function Projects() {
     return (
         <main className="py-20">
             <h1 className="text-center font-bold text-5xl pb-16">Projects</h1>
             <div className="px-6 sm:px-12 md:px-18 lg:px-24 xl:px-28 w-full grid grid-cols-12 sm:grid-rows-3 gap-4 sm:gap-y-20">
-                <ProjectLeft
-                    project="The First Martian" 
+                <ProjectImageLeft
+                    project="The First Martian"
+                    src="/images/projects/tfm.png"
                     description="A Game about Space Exploration"
-                    technologies="Unity / C# / Blender"
+                    technologies="Blender / Unity / C#"
                     github="https://github.com/leon-liang/the-first-martian"
                     website="https://the-first-martian.now.sh"
                     className="row-start-1"
                 />
-                <ProjectRight
-                    project="Find The Polygon" 
+                <ProjectImageRight
+                    project="Find The Polygon"
+                    src="/images/projects/ftp.png"
                     description="A Game of Dimensions. Manipulate a 3D object from a 2D point of view and discover hidden shaped inside."
                     technologies="Unity / C#"
                     github="https://github.com/nico-bachner/find-the-polygon"

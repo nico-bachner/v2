@@ -13,7 +13,7 @@ export default function Social() {
             <ExtLink href="https://stackoverflow.com/users/story/13506524" className="w-full">
                 <StackOverflow className="w-full my-6 hover:text-red dark:hover:text-green"/>
             </ExtLink>
-            <ExtLink href="https://github.com/nico-bachner" className="w-full">
+            <ExtLink href="https://code.golf/golfers/nico-bachner" className="w-full">
                 <CodeGolf className="w-full my-6 hover:text-red dark:hover:text-green"/>
             </ExtLink>
             <svg title="Line" viewBox="0 0 10 100" className="h-24 w-6 opacity-70">
