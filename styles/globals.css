@@ -11,4 +11,11 @@
             dark:text-cyan
         ;
     }
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    th, td {
+        @apply border p-4;
+    }
 }
