@@ -10,7 +10,7 @@ function App({ Component, pageProps }) {
                 <link rel="manifest" href="manifest.json"/>
                 <link rel="mask-icon" href="images/icon/icon.svg"/>
                 <meta name="color-scheme" content="dark light"/>
-                <meta name="description" content="Aspiring Open Sourcerer"/>
+                <meta name="description" content="High School Student in Luxembourg - Aspiring Open Sourcerer"/>
                 <meta name="keywords" content="student, developer, open source"/>
                 <meta name="author" content="Nico Bachner"/>
             </Head>
